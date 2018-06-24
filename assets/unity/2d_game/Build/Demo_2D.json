@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Real 2D GalaxyShooter",
+"dataUrl": "Demo_2D.data.unityweb",
+"asmCodeUrl": "Demo_2D.asm.code.unityweb",
+"asmMemoryUrl": "Demo_2D.asm.memory.unityweb",
+"asmFrameworkUrl": "Demo_2D.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
