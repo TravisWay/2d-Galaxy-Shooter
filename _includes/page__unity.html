@@ -1,7 +1,7 @@
 <script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/TemplateData/UnityProgress.js"></script>  
 <script src="{{ site.baseurl }}/assets/unity/{{page.unity_dir}}/Build/UnityLoader.js"></script>
 <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "2d-Galaxy-Shooter/assets/unity/2d_game/Build/Demo_2D.json",{onProgress: UnityProgress});  
+  var gameInstance = UnityLoader.instantiate("gameContainer", "https://travisway.github.io/2d-Galaxy-Shooter/assets/unity/2d_game/Build/Demo_2D.json",{onProgress: UnityProgress});  
 </script>
 <div class="webgl-content">
   <div id="gameContainer" style="width: 960px; height: 600px"></div>
